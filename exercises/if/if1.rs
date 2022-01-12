@@ -2,12 +2,18 @@
 
 // I AM NOT DONE
 
+fn main() {
+	let x: i32 = bigger(5,2);
+	println!("output is: {}", x);
+	}
+
 pub fn bigger(a: i32, b: i32) -> i32 {
-    // Complete this function to return the bigger number!
-    // Do not use:
-    // - another function call
-    // - additional variables
-    // Execute `rustlings hint if1` for hints
+	if a < b {
+	b
+	} else {
+	a
+	}    
+
 }
 
 // Don't mind this for now :)
